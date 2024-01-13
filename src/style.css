@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Desiguo PRO";
+  src: url("/src/assets/desiguo-regular.otf");
+}
+
 :root {
   --border-radius: 10px;
   --grid-gap: 1.5rem;
@@ -13,7 +18,7 @@
 }
 html {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Desiguo PRO", "Trebuchet MS", "Roboto", sans-serif;
 }
 *,
 *::after,
